@@ -1,0 +1,39 @@
+.outer {
+  display: flex;
+  justify-content: center;
+  margin-top: 30vh;
+}
+
+.box {
+  height: 30vh;
+  width: 80vw;
+  border: 2px solid black;
+  padding-left: 1vw;
+  display: flex;
+  gap: 20px;
+  overflow: hidden;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+
+}
+.leftbtn{
+    height: 30.4vh;
+    width: 3vw;
+}
+.rightbtn{
+    height: 30.4vh;
+    width: 3vw;
+
+
+}
+
+.innerbox{
+    height: 20vh;
+    width: 20vw;
+
+    margin-top: 5vh;
+  text-align: center;
+  font-size: 150px;
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+   
+} 
